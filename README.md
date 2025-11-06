@@ -53,7 +53,7 @@ Login confirmado no serviço **FTP** com sucesso.
 
 ---
 
-### 3. Captura de Credenciais via Código Fonte (POST)
+### 3. Captura de Credenciais via Código Fonte no DVWA (Metodo POST)
 Durante a inspeção de uma página web vulnerável, foram encontradas credenciais expostas:
 
 ```
