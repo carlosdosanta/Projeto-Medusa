@@ -1,0 +1,8 @@
+user
+msfadmin
+root
+teste
+admin
+nmsadmin
+nadmin
+nroot

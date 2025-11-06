@@ -1,0 +1,6 @@
+password
+root
+admin
+msfadmin
+n12345
+nmsfadmin
