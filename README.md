@@ -1,12 +1,11 @@
-# 🔐 Desafio de Projeto – Medusa no Kali Linux
-
+# Desafio de Projeto – Medusa no Kali Linux (BootCamp Santander - Cibersegurança 2025)
 Este projeto demonstra o uso da ferramenta **Medusa** em conjunto com o **Kali Linux** para realizar testes de força bruta e enumeração em ambientes controlados, utilizando a máquina vulnerável **Metasploitable 2**.
 
 O objetivo é compreender as etapas de **pentest ofensivo**, desde a configuração do ambiente até a identificação de credenciais e mitigação de vulnerabilidades.
 
 ---
 
-## 🧩 Estrutura do Ambiente
+## Estrutura do Ambiente
 
 O ambiente foi configurado em duas máquinas virtuais no **VMware**, com **rede interna (Host-Only)** para isolar o teste:
 
@@ -19,7 +18,7 @@ A comunicação entre as máquinas foi validada via **ICMP (ping)**, confirmando
 
 ---
 
-## ⚙️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - **Kali Linux**
 - **Metasploitable 2**
@@ -30,7 +29,7 @@ A comunicação entre as máquinas foi validada via **ICMP (ping)**, confirmando
 
 ---
 
-## 🧠 Etapas do Projeto
+## Etapas do Projeto
 
 ### 1. Enumeração de Serviços com Nmap
 Comando executado:
@@ -89,26 +88,26 @@ smbclient -L //192.168.126.128 -U msfadmin
 
 ---
 
-## 🛡️ Medidas de Mitigação
+## Medidas de Mitigação
 
 - Bloqueio de conta ou atraso progressivo após tentativas fracassadas.  
 - Forçar uso de **senhas fortes** e políticas de expiração.  
-- **Habilitar MFA** (autenticação multifator) sempre que possível.  
+- Habilitar MFA** (autenticação multifator) sempre que possível.  
 - Substituir **FTP por SFTP/FTPS** para uso de criptografia.  
 - Desabilitar **SMBv1**, aplicar **patches de segurança** e hardening.  
 - Implementar **rate-limiting**, **WAF** e proteções de formulários web.  
 - Monitorar logs e alertas de tentativas suspeitas.  
-- Educar usuários para criação de **senhas seguras**.
+- Educar usuários para criação de **senhas fortes**.
 
 ---
 
-## 📚 Conclusão
+## Conclusão
 
 O experimento demonstra como ferramentas como o **Medusa** podem ser utilizadas para testar a robustez de serviços vulneráveis em um ambiente controlado, destacando a importância da segurança defensiva, políticas de senha e boas práticas de mitigação.
 
 ---
 
-## 🧾 Autor
+## Autor
 
 **Carlos Henrique**  
 Projeto desenvolvido como parte do desafio prático sobre **segurança ofensiva com Medusa e Kali Linux**.
