@@ -26,7 +26,7 @@ A comunicação entre as máquinas foi validada via **ICMP (ping)**, confirmando
 - **Medusa**
 - **Enum4Linux**
 - **SMBClient**
-
+- **DVWA**
 ---
 
 ## Etapas do Projeto
@@ -111,3 +111,5 @@ O experimento demonstra como ferramentas como o **Medusa** podem ser utilizadas 
 
 **Carlos Henrique**  
 Projeto desenvolvido como parte do desafio prático sobre **segurança ofensiva com Medusa e Kali Linux**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-henrique-80365897/)
